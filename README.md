@@ -1,2 +1,15 @@
 # WeatherPredict
-Multiple ANNs weather prediction with Delhi weather data set
+
+Multiple ANNs weather prediction with Delhi weather data set created in Google Colab, using Pyhton and Tensorflow.
+
+## Model 1. LSTM
+First model utilizes Long Short-Term Memory network to exploit temporal dependencies across sequences of wather data
+
+## Model 2. CNN
+Second model uses Convolutional Neural Network to classify weather data. CNNs ability to process multiple sequences simultaneously makes them efficient for handling large datasets, including time series
+
+## Model 3. GRU
+Gated Recurrent Unit network is able to capture temporal factors of weather data. It also has a attention mechanism allowing it to find patterns hidden in the dataset
+
+## Model 4. DAY AND YEAR TIME
+For the final model (which uses LSTM network), data is preprocessed so that the temporal information is added - this approach leverages repeating weather conditions, which occur periodically during the day or the year.
