@@ -1,6 +1,6 @@
 # WeatherPredict
 
-Multiple ANNs weather prediction with Delhi weather data set created in Google Colab, using Pyhton and Tensorflow.
+Multiple ANNs weather prediction with multiple cities weather data sets created in Google Colab, using Pyhton and Tensorflow.
 
 ## Model 1. LSTM
 First model utilizes Long Short-Term Memory network to exploit temporal dependencies across sequences of wather data
